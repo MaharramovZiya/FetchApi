@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: sans-serif;
+}
+
+header{
+  background-image:
+  linear-gradient(to bottom, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)),
+  url('images/header.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container{
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+nav{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #ddd;
+  
+}
+nav .logo{
+  font-size:32px;
+  font-weight: bold;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.logo span{
+  color: brown;
+}
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0 10px;
+}
+ul li{
+  margin: 0 20px;
+  padding: 5px;
+}
+
+ul li a{
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+nav .sign-in{
+  border: 1px solid brown;
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,0,0,.5), inset 0 -1px
+  rgba(0,0,0,.5);
+  height: 40px;
+  line-height: 40px;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.sign-in a{
+  padding: 30px;
+  text-decoration: none;
+  transition:all 0.2s;
+  color: brown;
+  font-weight: 600;
+  font-size: 20px;
+  width: 100%;
+
+}
+.sign-in a:hover{
+  background-color: brown;
+  color: #fff;
+}
+
+/* content */
+header .content{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translate(0%,0);
+  padding: 0 20px;
+}
+header .content h1{
+  color: #fff;
+  text-align: left;
+  font-size: 45px;
+  
+}
+h1 span{
+  color: brown;
+}
+.content p{
+  width: 500px;
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 0 0 8px rgba(27, 19, 19, 0.5), inset 0 -1px
+  rgba(0,0,0,.5);
+  font-size: 18px;
+  
+}
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Section employers */
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  background-color: #f9f9f9;
+  
+}
+
+section .container h2{
+  margin: 0 20px;
+}
+
+section .container .cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding: 0 50px;
+}
